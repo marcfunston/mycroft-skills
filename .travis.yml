@@ -8,9 +8,9 @@ install:
  - pip install -r test-requirements.txt
 
 script:
-    - git fetch origin master:master
+    - git fetch origin 18.02:18.02
     - docker pull docker.mycroft.ai/skills-tester:latest
-    - export NEW_SKILL=$( git diff `git merge-base HEAD master` .gitmodules | grep "^\+.*url" | sed 's/.*url *= *//' )
+    - export NEW_SKILL=$( git diff `git merge-base HEAD 18.02` .gitmodules | grep "^\+.*url" | sed 's/.*url *= *//' )
     - docker run docker.mycroft.ai/skills-tester:latest ./test_skill.sh $NEW_SKILL
 # Disable PEP8 testing for now, since existing skills don't pass.
 # Should re-enable as part of 18.02

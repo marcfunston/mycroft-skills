@@ -16,3 +16,6 @@
 [submodule "mycroft-joke"]
 	path = mycroft-joke
 	url = https://github.com/mycroftai/skill-joke.git
+[submodule "mycroft-alarm"]
+	path = mycroft-alarm
+	url = https://github.com/mycroftai/skill-alarm.git
