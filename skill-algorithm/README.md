@@ -2,23 +2,15 @@ To submit your skill, replace this file with text from
 https://rawgit.com/MycroftAI/mycroft-skills/master/meta_editor.html
 
 
-## YOUR SKILL NAME
-One line description of the skill
-
-eg. "Verbally control Pomodoro timing and activities"
-eg. "Verbally search and play Spotify tracks and playlists"
-
-It's better not to use "This Skill does xxxx" as it's not as readable. 
+## Algorithm
+Let Mycroft enlighten you about algorithm running times
 
 ## Description 
-A more verbose description, including any extra instructions or
-information that didn't fit in the one line.
+Tells you the running time of merge sort and other algorithms.
 
 ## Examples 
-* "Hello world"
-* "Greetings planet earth"
-* "Count up"
-* "Count down"
+* "Merge Sort running time"
+* "Tell me merge sort running time"
 
 ## Credits 
-Your name
+Mycroft AI
