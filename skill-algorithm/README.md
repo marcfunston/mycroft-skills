@@ -12,5 +12,8 @@ Tells you the running time of merge sort and other algorithms.
 * "Merge Sort running time"
 * "Tell me merge sort running time"
 
+## Issues
+* MyCroft doesn't alway recognize running time and responds with clock time
+
 ## Credits 
 Mycroft AI
