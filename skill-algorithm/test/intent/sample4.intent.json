@@ -1,0 +1,7 @@
+{
+  "utterance": "algorithm",
+  "intent_type": "HeapSortIntent",
+  "intent": {
+    "HeapSort": "heapsort"
+  }
+}

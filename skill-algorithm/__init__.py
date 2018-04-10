@@ -28,12 +28,30 @@ class AlgorithmSkill(MycroftSkill):
         super(AlgorithmSkill, self).__init__(name="AlgorithmSkill")
 
     @intent_handler(IntentBuilder("MergeSortIntent").require("Algorithm").require("MergeSort"))
-    def handle_merge_sort_intent(self, message):
+    def handle_merge_sort_best_intent(self, message):
         self.speak_dialog("merge.sort")
+
+    @intent_handler(IntentBuilder("CountingSortIntent").require("Algorithm").require("CountingSort"))
+    def handle_counting_sort_intent(self, message):
+        self.speak_dialog("counting.sort")
 
     @intent_handler(IntentBuilder("LinearSortIntent").require("Algorithm").require("LinearSort"))
     def handle_linear_sort_intent(self, message):
         self.speak_dialog("linear.sort")
+
+    @intent_handler(IntentBuilder("HeapSortIntent").require("Algorithm").require("HeapSort"))
+    def handle_linear_sort_intent(self, message):
+        self.speak_dialog("heap.sort")
+
+    @intent_handler(IntentBuilder("QuickSortIntent").require("Algorithm").require("QuickSort"))
+    def handle_linear_sort_intent(self, message):
+        self.speak_dialog("quick.sort")
+
+    @intent_handler(IntentBuilder("RadixSortIntent").require("Algorithm").require("RadixSort"))
+    def handle_linear_sort_intent(self, message):
+        self.speak_dialog("radix.sort")
+
+
 
     def stop(self):
         pass

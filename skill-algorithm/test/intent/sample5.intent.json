@@ -1,0 +1,7 @@
+{
+    "utterance": "algorithm",
+    "intent_type": "QuickSortIntent",
+    "intent": {
+      "QuickSort": "quicksort"
+    }
+  }
