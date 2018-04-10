@@ -1,8 +1,0 @@
-{
-   "utterance": "merge sort",
-   "intent_type": "AlgorithmIntent",
-   "intent": {
-        "MergeSort": "merge sort"
-   }
-
-} 
